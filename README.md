@@ -13,6 +13,7 @@ This comprehensive course focuses on empowering learners with the knowledge and 
     - [Day 2:  Why Open-Source LLMs? Differences, Advantages, and Disadvantages](#day-2--why-open-source-llms-differences-advantages-and-disadvantages)
     - [Day 3: The Easiest Way to Run Open-Source LLMs Locally \& What You Need](#day-3-the-easiest-way-to-run-open-source-llms-locally--what-you-need)
     - [Day 4: Prompt Engineering for Open-Source LLMs and Their Use in the Cloud](#day-4-prompt-engineering-for-open-source-llms-and-their-use-in-the-cloud)
+  - [Week 2 - Advanced Topics in Open-Source LLMs](#week-2---advanced-topics-in-open-source-llms)
     - [Day 5: Function Calling, RAG, and Vector Databases with Open-Source LLMs](#day-5-function-calling-rag-and-vector-databases-with-open-source-llms)
     - [Day 6:Optimizing RAG Apps: Tips for Data Preparation](#day-6optimizing-rag-apps-tips-for-data-preparation)
     - [Day 7: Local AI Agents with Open-Source LLMs](#day-7-local-ai-agents-with-open-source-llms)
@@ -58,7 +59,46 @@ This comprehensive course focuses on empowering learners with the knowledge and 
 
 ### Day 3: The Easiest Way to Run Open-Source LLMs Locally & What You Need
 
+**What I did today:**
+
+- Understood the hardware requirements (GPU, VRAM, CPU, RAM) for running LLMs locally and the critical role of **quantization** in making models accessible on consumer-grade hardware.
+- Learned to install and use **LM Studio** as a user-friendly platform for downloading and running various open-source LLMs (like Llama 3, Phi-3, Mistral) locally, ensuring data privacy.
+- Explored the LM Studio interface for model discovery (GGUF format), selection based on quantization levels (e.g., Q4, Q5, FP16), and configuring **GPU offloading** for optimal performance.
+- Practiced interacting with LLMs in LM Studio's AI Chat, adjusting parameters like temperature and context length to tailor model outputs.
+- Investigated the concept of censored vs. uncensored LLMs, learning how to find and use "Dolphin" fine-tunes for unfiltered responses, while acknowledging the ethical considerations.
+- Identified core LLM use cases, primarily text expansion and summarization, and their applications in programming, education, and data analysis.
+- Gained knowledge on enabling and using multimodal **vision models** (e.g., Llava with Llama 3/Phi-3) in LM Studio, including the need for separate vision adapter files, to analyze images locally.
+- Delved deeper into GPU offload settings to balance performance and system resources.
+- Consolidated learning on strategic model selection, hardware optimization, and practical LM Studio usage.
+
+**Resources**:
+
+- [day3.ipynb](./notes/day3.ipynb)
+
 ### Day 4: Prompt Engineering for Open-Source LLMs and Their Use in the Cloud
+
+**What I did today:**
+
+- Explored **HuggingChat** as a user-friendly interface for open-source LLMs, noting its cloud-based accessibility, file upload capabilities, and integrated tools (function calling).
+- Learned about **System Prompts** and their importance in guiding LLM behavior across platforms like Hugging Chat, LM Studio, and ChatGPT.
+- Understood why **Prompt Engineering** is crucial, illustrated by how LLMs might provide overly complex solutions without specific, human-centric reasoning instructions.
+- Grasped the concept of **Semantic Association**, where LLMs activate related terms and concepts based on input words, forming a key principle for effective prompting.
+- Studied **Structured Prompts**, which involve defining a modifier (output type), a topic, and additional modifiers (audience, style, length) to tailor LLM outputs.
+- Investigated **Instruction Prompting**, including using phrases like "Let's think step by step" or "Take a deep breath" to enhance LLM responses.
+- Examined **Role Prompting**, where assigning a persona (e.g., "expert data scientist") improves output specificity by leveraging semantic association.
+- Learned about **Shot Prompting** (Zero-Shot, One-Shot, Few-Shot), which involves providing zero to multiple examples to guide the LLM's output style and structure.
+- Explored **Reverse Prompt Engineering**, an iterative method to deconstruct existing text to derive a generative prompt that can replicate its style and content.
+- Understood **Chain of Thought (CoT) Prompting**, which encourages LLMs to articulate intermediate reasoning steps, improving accuracy for multi-step problems.
+- Was introduced to **Tree of Thoughts (ToT) Prompting**, a technique where the LLM explores multiple reasoning paths, evaluates them, and strategically expands promising ones.
+- Saw how **Combining Prompting Concepts** (layering role, structured, shot, and enhancer prompts) can produce highly specific and effective LLM outputs.
+- Learned about **Creating Custom Assistants** in platforms like Hugging Chat, which involves pre-configuring LLMs with system prompts and roles for specialized tasks.
+- Discovered **Groq** and its LPU technology for exceptionally fast inference speeds with open-source LLMs.
+
+**Resources**:
+
+- [Day 4 Notes](./notes/day4.ipynb)
+
+## Week 2 - Advanced Topics in Open-Source LLMs
 
 ### Day 5: Function Calling, RAG, and Vector Databases with Open-Source LLMs
 
