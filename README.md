@@ -102,6 +102,26 @@ This comprehensive course focuses on empowering learners with the knowledge and 
 
 ### Day 5: Function Calling, RAG, and Vector Databases with Open-Source LLMs
 
+**What I did today:**
+
+- Explored the foundational elements and setup process for creating a local Retrieval Augmented Generation (RAG) application.
+- Emphasized the importance of understanding concepts like function calling, vector databases, and embedding models.
+- Learned about building a private and versatile local system using tools such as LM Studio and Olama.
+- Understood how to enable capabilities like searching local files, accessing the internet, generating charts, and integrating text-to-speech, while ensuring maximum data privacy.
+- Investigated function calling in LLMs, presenting the LLM as an "operating system" that intelligently delegates tasks to specialized external tools or programs.
+- Learned about Retrieval Augmented Generation (RAG) as an efficient method for providing LLMs with additional, specific knowledge.
+- Understood the process of installing and configuring AnythingLM to build local AI applications, including those leveraging function calling and RAG.
+- Explored how to connect AnythingLM to a locally hosted open-source LLM server, such as one run by LM Studio.
+- Learned to build a private, local RAG application using AnythingLM with an LM Studio server, focusing on workspace creation, document ingestion (local files, websites, YouTube transcripts, GitHub repositories), and embedding information into AnythingLM's built-in local vector database (LanceDB).
+- Understood how to activate and utilize function calling capabilities, specifically web search, within a local AnythingLM setup by configuring an "agent" in AnythingLM to use an external search API (like SerpDog).
+- Explored advanced agent skills in AnythingLM, such as full document summarization and on-the-fly chart generation.
+- Delved into advanced configuration settings in AnythingLM, with a particular emphasis on improving Text-to-Speech (TTS) quality through integration with external services like OpenAI.
+- Covered the installation of Ollama, managing models through its command-line interface, and connecting Ollama as a local LLM provider to AnythingLM.
+
+**Resources:**
+
+- [Day 5 Notebook](./notes/day5.ipynb)
+
 ### Day 6:Optimizing RAG Apps: Tips for Data Preparation
 
 ### Day 7: Local AI Agents with Open-Source LLMs
