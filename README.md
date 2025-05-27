@@ -15,7 +15,7 @@ This comprehensive course focuses on empowering learners with the knowledge and 
     - [Day 4: Prompt Engineering for Open-Source LLMs and Their Use in the Cloud](#day-4-prompt-engineering-for-open-source-llms-and-their-use-in-the-cloud)
   - [Week 2 - Advanced Topics in Open-Source LLMs](#week-2---advanced-topics-in-open-source-llms)
     - [Day 5: Function Calling, RAG, and Vector Databases with Open-Source LLMs](#day-5-function-calling-rag-and-vector-databases-with-open-source-llms)
-    - [Day 6:Optimizing RAG Apps: Tips for Data Preparation](#day-6optimizing-rag-apps-tips-for-data-preparation)
+    - [Day 6: Optimizing RAG Apps: Tips for Data Preparation](#day-6-optimizing-rag-apps-tips-for-data-preparation)
     - [Day 7: Local AI Agents with Open-Source LLMs](#day-7-local-ai-agents-with-open-source-llms)
     - [Day 8: Finetuning, Renting GPUs, Open-Source TTS, Finding the BEST LLM \& More Tips](#day-8-finetuning-renting-gpus-open-source-tts-finding-the-best-llm--more-tips)
     - [Day 9: Data Privacy, Security, and What Comes Next?](#day-9-data-privacy-security-and-what-comes-next)
@@ -122,7 +122,20 @@ This comprehensive course focuses on empowering learners with the knowledge and 
 
 - [Day 5 Notebook](./notes/day5.ipynb)
 
-### Day 6:Optimizing RAG Apps: Tips for Data Preparation
+### Day 6: Optimizing RAG Apps: Tips for Data Preparation
+
+**What I did today:**
+
+- Learned about ChatGPT's "Custom Instructions" feature, which allows users to provide persistent information and response preferences to personalize outputs and improve efficiency.
+- Explored Chain of Thought (CoT) prompting, a technique to enhance LLM reasoning by guiding them to articulate intermediate steps, using either few-shot examples or zero-shot instructions like "Let's think step by step."
+- Investigated Self-Consistency prompting, which improves answer reliability by generating multiple responses to a query and selecting the most frequent one.
+- Understood "Knowledge Creation Prompting" (or Knowledge Generation), where an initial general query primes the LLM with context, enhancing subsequent specific prompts on that topic.
+- Delved into Tree of Thought (ToT) prompting, an advanced technique where the LLM generates, evaluates, and expands on diverse ideas in a branching structure to solve complex problems.
+- Received an overview of other advanced prompting techniques like Retrieval Augmented Generation (RAG), ART, and APE, with an emphasis on mastering core methods like Tree of Thought for high-stakes tasks.
+
+**Resources:**
+
+- [Day 6 Notebook](./notes/day6.ipynb)
 
 ### Day 7: Local AI Agents with Open-Source LLMs
 
