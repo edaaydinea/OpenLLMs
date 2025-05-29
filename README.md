@@ -161,4 +161,19 @@ This comprehensive course focuses on empowering learners with the knowledge and 
 
 ### Day 8: Finetuning, Renting GPUs, Open-Source TTS, Finding the BEST LLM & More Tips
 
+**What I did today:**
+
+- Explored Text-to-Speech (TTS) options, focusing on OpenAI's TTS via Google Colab for its quality and ease of use, while also acknowledging open-source alternatives like Jets.
+- Learned about Moshi Moshi, a free, open-source conversational AI, as a tool for casual interaction and experimentation.
+- Investigated LLM fine-tuning, discussing platforms like Hugging Face AutoTrain and Google Colab (with Unsloth for Llama 3) for customizing models, while also highlighting the significant costs, data requirements, and potential for increased hallucinations.
+- Understood the process of generating custom datasets for fine-tuning (e.g., using ChatGPT) and key training parameters (steps, epochs, loss).
+- Received strong cautionary advice regarding the general necessity and effectiveness of fine-tuning, with Retrieval Augmented Generation (RAG) often presented as a more practical alternative.
+- Learned how to find and evaluate open-source LLMs using resources like Chatbot Arena and the Open LLM Leaderboard, with Meta's Llama models noted as consistently strong.
+- Discussed xAI's Grok, acknowledging its power and open-source nature but noting its current impracticality for local use due to size and lack of quantization, making X platform subscription the primary access route.
+- Explored GPU rental services like RunPod (recommending The Bloke's One-Click UI template) and Vast.ai (as Mass Compute) for running large models when local hardware is insufficient.
+
+**Resources:**
+
+- [Day 8 Notebook](./notes/day8.ipynb)
+
 ### Day 9: Data Privacy, Security, and What Comes Next?
