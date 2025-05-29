@@ -139,6 +139,26 @@ This comprehensive course focuses on empowering learners with the knowledge and 
 
 ### Day 7: Local AI Agents with Open-Source LLMs
 
+**What I did today:**
+
+- Defined AI agents as interconnected systems of multiple LLMs designed for complex tasks, and explored development frameworks like LangChain, LangGraph, and Flowise.
+- Focused on Flowise for its local deployment capabilities and user-friendly interface, suitable for building applications like automated content generation and coding assistants.
+- Understood multi-LLM agent architectures, where tasks are divided among specialized LLMs (e.g., planner, researcher, writer) for more robust outcomes.
+- Explored the supervisor/sub-expert LLM architecture, where a supervisor LLM coordinates specialized sub-expert LLMs for task decomposition and specialized intelligence.
+- Learned about Retrieval Augmented Generation (RAG) for AI agents, enabling them to access external knowledge bases to improve accuracy and relevance.
+- Gained practical experience by installing Flowise locally using Node.js and managing Node.js versions with NVM (Node Version Manager) to ensure compatibility (recommending Node.js v20.6.0).
+- Navigated the Flowise interface, including the Marketplace for templates, and learned to manage credentials for external services.
+- Built a local RAG chatbot using Flowise with a self-hosted Ollama server (Llama 3), covering component setup (chat models, embeddings, vector stores, document loaders) and the critical "upsert" process.
+- Created a multi-LLM AI agent in Flowise with a supervisor-worker architecture (Code Writer and Documentation Writer) using local Ollama models, including AI-assisted prompt generation.
+- Developed a multi-agent AI system for content creation (web research → blog post → tweet → YouTube titles) using Flowise, local Ollama (Llama 3 with function calling), and SerpAPI for web searches.
+- Investigated integrating RAG capabilities into individual worker agents within Flowise and discussed deploying Flowise applications to cloud platforms like Render with persistent disk storage.
+- Explored using open-source models from Hugging Face Inference API in Flowise, including API token setup and the importance of model-specific prompt templates, and learned to embed/share chatbots.
+- Enhanced Flowise application performance by integrating Groq's high-speed inference API for LLMs like Llama 3, while noting Groq does not provide embedding models.
+
+**Resources:**
+
+- [Day 7 Notebook](./notes/day7.ipynb)
+
 ### Day 8: Finetuning, Renting GPUs, Open-Source TTS, Finding the BEST LLM & More Tips
 
 ### Day 9: Data Privacy, Security, and What Comes Next?
