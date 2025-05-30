@@ -177,3 +177,20 @@ This comprehensive course focuses on empowering learners with the knowledge and 
 - [Day 8 Notebook](./notes/day8.ipynb)
 
 ### Day 9: Data Privacy, Security, and What Comes Next?
+
+**What I did today:**
+
+- Reviewed the critical importance of **data privacy and security** when working with LLMs, especially when handling sensitive information. Emphasized that local open-source LLMs offer the highest level of control.
+- Discussed the potential risks of using cloud-based LLM services for private data and the importance of understanding their data handling policies.
+- Learned about **prompt injection** attacks, where malicious input can manipulate an LLM's output or reveal sensitive system information, and basic mitigation strategies (e.g., input sanitization, instruction defense).
+- Explored the concept of **model poisoning**, where training data is intentionally corrupted to introduce vulnerabilities or biases into an LLM.
+- Touched upon **output filtering and content moderation** as ways to manage risks associated with LLM-generated content.
+- Reflected on the **future of open-source LLMs**, including trends like smaller, more efficient models, advancements in multimodal capabilities, and the growing role of community-driven development.
+- Considered the **ethical implications** of powerful AI, including bias, misuse, and job displacement, and the need for responsible development and deployment.
+- Briefly looked at **federated learning** as a privacy-preserving technique for training models on decentralized data.
+- Summarized the key takeaways from the course, emphasizing the practical skills gained in setting up and using local LLMs, RAG, function calling, and agent-based systems.
+- Encouraged continued learning and exploration in the rapidly evolving field of open-source AI.
+
+**Resources:**
+
+- [Day 9 Notebook](./notes/day9.ipynb)
